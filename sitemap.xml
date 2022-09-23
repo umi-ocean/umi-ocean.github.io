@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2022/09/20/%E7%A9%BF%E6%90%ADtip/</loc>
+    <loc>http://czfblog.com/2022/09/20/%E7%A9%BF%E6%90%ADtip/</loc>
     
     <lastmod>2022-09-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/08/11/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF-2/</loc>
+    <loc>http://czfblog.com/2022/08/11/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF-2/</loc>
     
     <lastmod>2022-09-20</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/08/06/%E9%9D%99%E9%BB%98%E6%97%A5-1/</loc>
+    <loc>http://czfblog.com/2022/08/06/%E9%9D%99%E9%BB%98%E6%97%A5-1/</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/08/06/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF-1/</loc>
+    <loc>http://czfblog.com/2022/08/06/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF-1/</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/06/15/%E7%AE%80%E4%BB%8B/</loc>
+    <loc>http://czfblog.com/2022/06/15/%E7%AE%80%E4%BB%8B/</loc>
     
     <lastmod>2022-08-06</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://czfblog.com/tags/index.html</loc>
     
     <lastmod>2022-06-15</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://czfblog.com/categories/index.html</loc>
     
     <lastmod>2022-06-15</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>http://czfblog.com/about/index.html</loc>
     
     <lastmod>2022-06-15</lastmod>
     
@@ -75,7 +75,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://czfblog.com/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -83,49 +83,49 @@
 
   
   <url>
-    <loc>http://example.com/tags/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF/</loc>
+    <loc>http://czfblog.com/tags/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
+    <loc>http://czfblog.com/tags/%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E9%9D%99%E9%BB%98%E6%97%A5/</loc>
+    <loc>http://czfblog.com/tags/%E9%9D%99%E9%BB%98%E6%97%A5/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E7%A9%BA%E6%83%B3/</loc>
+    <loc>http://czfblog.com/tags/%E7%A9%BA%E6%83%B3/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E7%A9%BF%E6%90%AD/</loc>
+    <loc>http://czfblog.com/tags/%E7%A9%BF%E6%90%AD/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://czfblog.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E7%AE%80%E4%BB%8B/</loc>
+    <loc>http://czfblog.com/tags/%E7%AE%80%E4%BB%8B/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -134,21 +134,21 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://czfblog.com/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>http://czfblog.com/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/web%E5%89%8D%E7%AB%AF/</loc>
+    <loc>http://czfblog.com/categories/web%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
