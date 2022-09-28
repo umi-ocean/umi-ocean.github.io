@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+<!-- jquery -->
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- 打字礼花及震动特效 -->
+
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+<script type="text/javascript" src="/lib/activate-power-mode/activate-power-mode.js"></script>
+<script>
+	POWERMODE.colorful = true;
+	POWERMODE.shake = true;
+	document.body.addEventListener('input',POWERMODE);
+</script>
+
+<!-- jquery -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+ <!-- live2d -->
+
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="240" height="330" class="live2d"></canvas>
+</div>
+<script async src="/lib/poster-girl/waifu-tips.js"></script>
+<script src="/lib/poster-girl/live2d.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "/live2d/assets/kanna.model.json");
+</script>
+
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"czfblog.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="[toc] 关于曝光需要知道的那些事儿曝光的三要素曝光指的是相机中的感光材料与光线发生感光作用，所以曝光程度就是指感光作用的程度。通常曝光的情况可以分为三类：一是欠曝，也就是感光程度不够，画面过暗，损失细节；二是过曝，也就是感光程度过头了，画面亮度过高损失了细节；三是正常曝光，也就是画面明亮适中。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="曝光">
+<meta property="og:url" content="http://czfblog.com/2022/09/28/%E6%9B%9D%E5%85%89/index.html">
+<meta property="og:site_name" content="十月的眸的博客">
+<meta property="og:description" content="[toc] 关于曝光需要知道的那些事儿曝光的三要素曝光指的是相机中的感光材料与光线发生感光作用，所以曝光程度就是指感光作用的程度。通常曝光的情况可以分为三类：一是欠曝，也就是感光程度不够，画面过暗，损失细节；二是过曝，也就是感光程度过头了，画面亮度过高损失了细节；三是正常曝光，也就是画面明亮适中。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="d:/Blog/source/_posts/曝光/人像过曝.png">
+<meta property="og:image" content="d:/Blog/source/_posts/曝光/人像欠曝.png">
+<meta property="og:image" content="d:/Blog/source_posts/曝光/光轨.png">
+<meta property="og:image" content="d:/Blog/source_posts/曝光/人流.png">
+<meta property="og:image" content="d:/Blog/source_posts/曝光/星轨.png">
+<meta property="og:image" content="d:/Blog/source_posts/曝光/雾化.png">
+<meta property="article:published_time" content="2022-09-28T11:02:00.000Z">
+<meta property="article:modified_time" content="2022-09-28T12:42:25.868Z">
+<meta property="article:author" content="阿丰">
+<meta property="article:tag" content="摄影">
+<meta property="article:tag" content="曝光">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="d:/Blog/source/_posts/曝光/人像过曝.png">
+
+<link rel="canonical" href="http://czfblog.com/2022/09/28/%E6%9B%9D%E5%85%89/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>曝光 | 十月的眸的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">十月的眸的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="sitemap fa-fw"></i>站点地图</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://czfblog.com/2022/09/28/%E6%9B%9D%E5%85%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="阿丰">
+      <meta itemprop="description" content="选择有时候比努力更重要">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="十月的眸的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          曝光
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-09-28 19:02:00 / 修改时间：20:42:25" itemprop="dateCreated datePublished" datetime="2022-09-28T19:02:00+08:00">2022-09-28</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>[toc]</p>
+<h1 id="关于曝光需要知道的那些事儿"><a href="#关于曝光需要知道的那些事儿" class="headerlink" title="关于曝光需要知道的那些事儿"></a>关于曝光需要知道的那些事儿</h1><h2 id="曝光的三要素"><a href="#曝光的三要素" class="headerlink" title="曝光的三要素"></a>曝光的三要素</h2><p>曝光指的是相机中的感光材料与光线发生感光作用，所以曝光程度就是指感光作用的程度。通常曝光的情况可以分为三类：一是欠曝，也就是感光程度不够，画面过暗，损失细节；二是过曝，也就是感光程度过头了，画面亮度过高损失了细节；三是正常曝光，也就是画面明亮适中。</p>
+<span id="more"></span>
+
+<p>曝光对拍摄结果的影响是巨大的，但是并不就是说正常曝光就是好的，是我们一定要去追求的，具体需要就情况而定。例如，在环境光较强的情况下拍摄人像，这时人像是我们的拍摄主体，为了记录人像的细节，背景通常会过曝，这时就需要抛弃背景的细节。像下图，背后的天空就是过曝的，一点细节也没有了。</p>
+<img src="D:\Blog\source\_posts\曝光\人像过曝.png" style="zoom:75%;" />
+
+<p>又例如在较暗的场景下，黄昏下的操场，有人与夕阳，但是夕阳是我们想要去记录的主题，为了能够完整记录夕阳的细节，就需要调整曝光，人就被迫欠曝，甚至只有边缘可分，但是夕阳下的一幅剪影图是不是也很有情调呢。</p>
+<img src="D:\Blog\source\_posts\曝光\人像欠曝.png" style="zoom:30%;" />
+
+<p>那么曝光要怎样来调节呢？下面我们将介绍影响曝光的三要素：光圈大小、快门速度、感光度。来点工科男的理解，光圈就是一次采样的比特数，快门就是采样时间，感光度就是采样速率，他们综合影响了最后采样的结果，不知道这样比喻恰当不恰当。</p>
+<h3 id="光圈大小（Aperture-size）"><a href="#光圈大小（Aperture-size）" class="headerlink" title="光圈大小（Aperture size）"></a>光圈大小（Aperture size）</h3><p>光圈大小是镜头的参数，用于控制同时间的进光量，从F22到F11到F1.4光圈从小到大。光圈越大意味着同一时间内进入相机的光线就越多，越小则同一时间进入相机的光线就越少。在其他条件相同时，光圈越大，曝光程度越高。因此在夜间拍摄时，一个大光圈的镜头拍摄效果要比小光圈的镜头好上不少。</p>
+<h3 id="快门速度（Shutter-speed）"><a href="#快门速度（Shutter-speed）" class="headerlink" title="快门速度（Shutter speed）"></a>快门速度（Shutter speed）</h3><p>快门速度是相机的参数，用于控制相机进光的时间，从30到1&#x2F;4000，快门速度从慢到快。其他条件相同时，快门速度越快，则进光量越少，曝光程度越低；快门速度越慢，则进光量越多，曝光程度越高。通常来说，高速快门用于抓拍，拍下一瞬间的画面；慢快门则可以用在一些特殊场景，如人群、光轨、星轨、湖面等，通过长曝光得到一个虚化、雾化的比较有趣的画面。</p>
+<p>比如在城市夜晚的车流的长曝光拍摄，可以得到一条绚丽的光轨。</p>
+<p><img src="D:\Blog\source_posts\曝光\光轨.png"></p>
+<p>比如用长曝光拍摄人流中拥抱的两个人，周围的人会有一个虚化的效果，从而达到一种突出、强调的作用。</p>
+<p><img src="D:\Blog\source_posts\曝光\人流.png"></p>
+<p>比如用长曝光拍摄夜空，可以得到星星缓慢移动的星轨，不过这种曝光时间需要很长，一般需要几个小时之久。</p>
+<p><img src="D:\Blog\source_posts\曝光\星轨.png"></p>
+<p>又比如用长曝光拍摄湖面、瀑布或海滩等流体，波动的湖水会被压缩得到一个雾化的画面。</p>
+<p><img src="D:\Blog\source_posts\曝光\雾化.png"></p>
+<h3 id="感光度（ISO）"><a href="#感光度（ISO）" class="headerlink" title="感光度（ISO）"></a>感光度（ISO）</h3><p>感光度也是相机的参数，是指相机传感器对于光线的敏感程度。其他条件相同时，感光度越高，则曝光程度越高；反之，则越低。一般来说，感光度越低画面的质量越好，但是这也不是绝对的，比如在夜间拍摄，还是需要稍微提高ISO的，这样可以降低后期的难度，以及提升后期算法处理后的画质。</p>
+<h3 id="曝光补偿（EV）"><a href="#曝光补偿（EV）" class="headerlink" title="曝光补偿（EV）"></a>曝光补偿（EV）</h3><p>除了以上三个要素，还有一种方便的方式来调整曝光（EV），那就是曝光补偿（手机上的那个小太阳）。当整体画面较暗时，可以适当增加一点曝光补偿来提升亮度；而当整体画面较亮时，可以适当降低曝光补偿来降低亮度。不过补偿的范围一般上下不超过1EV，否则会带来许多噪点，降低画质。</p>
+<h2 id="曝光组合与对应的题材"><a href="#曝光组合与对应的题材" class="headerlink" title="曝光组合与对应的题材"></a>曝光组合与对应的题材</h2><h3 id="全自动（Auto）"><a href="#全自动（Auto）" class="headerlink" title="全自动（Auto）"></a>全自动（Auto）</h3><p>首先排除一个选项，自动模式（Auto），如果时认真拍照，为了学摄影而去拍照的话，这个模式就可以关了。</p>
+<h3 id="P-程序曝光（半自动）"><a href="#P-程序曝光（半自动）" class="headerlink" title="P-程序曝光（半自动）"></a>P-程序曝光（半自动）</h3><p>这个模式下，光圈和快门都是由相机自动设置的，而感光度则由手动调节。通常在旅游或者抓拍的时候用到，会比较简便。</p>
+<h3 id="A-x2F-AV-光圈优先"><a href="#A-x2F-AV-光圈优先" class="headerlink" title="A&#x2F;AV-光圈优先"></a>A&#x2F;AV-光圈优先</h3><p>这个模式下，只有快门是交由相机自动设置的，而感光度与光圈则由手动调节。这个模式适用于绝大多数场景。一般拍摄过程是根据拍摄题材确定好光圈数值，如果是手持，则查看安全快门（焦距的倒数），根据快门调整ISO；如果是三脚架，则设定一个较低的ISO，判断快门是否合适（画面中是否有不理想的模糊）。最终调整EV，确认曝光，拍摄。</p>
+<h3 id="S-x2F-TV-快门优先"><a href="#S-x2F-TV-快门优先" class="headerlink" title="S&#x2F;TV-快门优先"></a>S&#x2F;TV-快门优先</h3><p>这个模式下，只有光圈是交由相机自动设置的，而感光度与快门时间则由手动调节。他会比较适合一些抓拍场景如拍摄野生动物、体育新闻之类的需要高速快门的场景。</p>
+<h3 id="M-手动曝光"><a href="#M-手动曝光" class="headerlink" title="M-手动曝光"></a>M-手动曝光</h3><p>这个模式下，三个参数全部都能手动调节，叫做M档。M档由于三个参数全是手动调节，因此EV是作废的。在一些固定参数拍摄的物体，比如说亮度一直不变的物体上面，像月亮的拍摄；又比如一些亮度超出了EV的调整范围，如太阳；又比如光线变化很复杂的场景下，相机的自动测光不可信时，采用M档。</p>
+<h3 id="B-B门（长时间曝光）"><a href="#B-B门（长时间曝光）" class="headerlink" title="B-B门（长时间曝光）"></a>B-B门（长时间曝光）</h3><p>在拍摄一些长时间曝光30秒以上的画面时，会用到这个模式。他的操作方式就是，按下快门，就会进行曝光，直到松手的那一刻，才会停止曝光，所以又称闭门。</p>
+<h3 id="C-自定义模式"><a href="#C-自定义模式" class="headerlink" title="C-自定义模式"></a>C-自定义模式</h3><p>能够把前面的这些挡位，记录为常用的一些参数，然后设置到C档内。比如说，可以设置A档的光圈为F8，ISO为100，然后设定七张的包围曝光，用于室内建筑拍摄。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>阿丰
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://czfblog.com/2022/09/28/%E6%9B%9D%E5%85%89/" title="曝光">http://czfblog.com/2022/09/28/曝光/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%91%84%E5%BD%B1/" rel="tag"># 摄影</a>
+              <a href="/tags/%E6%9B%9D%E5%85%89/" rel="tag"># 曝光</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/09/20/%E7%A9%BF%E6%90%ADtip/" rel="prev" title="穿搭tip">
+      <i class="fa fa-chevron-left"></i> 穿搭tip
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81Njk2NS8zMzQyOQ=="></div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E6%9B%9D%E5%85%89%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF"><span class="nav-number">1.</span> <span class="nav-text">关于曝光需要知道的那些事儿</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%9D%E5%85%89%E7%9A%84%E4%B8%89%E8%A6%81%E7%B4%A0"><span class="nav-number">1.1.</span> <span class="nav-text">曝光的三要素</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%89%E5%9C%88%E5%A4%A7%E5%B0%8F%EF%BC%88Aperture-size%EF%BC%89"><span class="nav-number">1.1.1.</span> <span class="nav-text">光圈大小（Aperture size）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%97%A8%E9%80%9F%E5%BA%A6%EF%BC%88Shutter-speed%EF%BC%89"><span class="nav-number">1.1.2.</span> <span class="nav-text">快门速度（Shutter speed）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%84%9F%E5%85%89%E5%BA%A6%EF%BC%88ISO%EF%BC%89"><span class="nav-number">1.1.3.</span> <span class="nav-text">感光度（ISO）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%9D%E5%85%89%E8%A1%A5%E5%81%BF%EF%BC%88EV%EF%BC%89"><span class="nav-number">1.1.4.</span> <span class="nav-text">曝光补偿（EV）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%9D%E5%85%89%E7%BB%84%E5%90%88%E4%B8%8E%E5%AF%B9%E5%BA%94%E7%9A%84%E9%A2%98%E6%9D%90"><span class="nav-number">1.2.</span> <span class="nav-text">曝光组合与对应的题材</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%A8%E8%87%AA%E5%8A%A8%EF%BC%88Auto%EF%BC%89"><span class="nav-number">1.2.1.</span> <span class="nav-text">全自动（Auto）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#P-%E7%A8%8B%E5%BA%8F%E6%9B%9D%E5%85%89%EF%BC%88%E5%8D%8A%E8%87%AA%E5%8A%A8%EF%BC%89"><span class="nav-number">1.2.2.</span> <span class="nav-text">P-程序曝光（半自动）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#A-x2F-AV-%E5%85%89%E5%9C%88%E4%BC%98%E5%85%88"><span class="nav-number">1.2.3.</span> <span class="nav-text">A&#x2F;AV-光圈优先</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#S-x2F-TV-%E5%BF%AB%E9%97%A8%E4%BC%98%E5%85%88"><span class="nav-number">1.2.4.</span> <span class="nav-text">S&#x2F;TV-快门优先</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#M-%E6%89%8B%E5%8A%A8%E6%9B%9D%E5%85%89"><span class="nav-number">1.2.5.</span> <span class="nav-text">M-手动曝光</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#B-B%E9%97%A8%EF%BC%88%E9%95%BF%E6%97%B6%E9%97%B4%E6%9B%9D%E5%85%89%EF%BC%89"><span class="nav-number">1.2.6.</span> <span class="nav-text">B-B门（长时间曝光）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#C-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.2.7.</span> <span class="nav-text">C-自定义模式</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="阿丰"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">阿丰</p>
+  <div class="site-description" itemprop="description">选择有时候比努力更重要</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">阿丰</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共6.2k字</span>
+</div>
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
+
+</body>
+</html>
